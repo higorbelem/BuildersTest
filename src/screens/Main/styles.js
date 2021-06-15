@@ -15,13 +15,19 @@ export default StyleSheet.create({
         alignItems: 'center',
         paddingBottom: getBottomSpace(),
     },
-    backImage:{
+    backImageContainer:{
         flex: 1,
+        width: '100%',
+        justifyContent: 'flex-end',
+    },
+    backImage:{
+        position: 'absolute',
         width: width,
         height: width,
+        bottom: -40,
+        right: 0,
     },
     infoContainer:{
-        flex: 1,
         width: '100%',
     },
     tempContainer:{
@@ -29,6 +35,7 @@ export default StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         paddingHorizontal: 20,
+        marginBottom: 10
     },
     tempText:{
         flex: 1,
@@ -63,11 +70,11 @@ export default StyleSheet.create({
         marginLeft: 5
     },
     tempAdicionalInfoConteiner:{
-        flex:1,
         justifyContent: 'center',
         flexDirection: 'row',
         width: '100%',
         paddingHorizontal: 20,
+        marginBottom: 50
     },
     tempAdicionalInfoItemConteiner:{
         flex: 1,
@@ -85,21 +92,23 @@ export default StyleSheet.create({
         includeFontPadding: false,
         color: colors.secondaryText,
     },
+    scrollContainer:{
+        height: 170,
+        marginBottom: 20,
+    },
     chartScoll:{
-        height:80,
-        marginBottom: 20
     },
     chartScollContent:{
-        paddingHorizontal: 10
+        paddingHorizontal: 10,
     },  
     chart:{
-        height: 160,
+        height: 170,
     },
     headerBar:{
         position: 'absolute',
         top: 0,
         left: 0,
         width: '100%',
-        marginTop: getStatusBarHeight()
+        marginTop: getStatusBarHeight(),
     }
 });

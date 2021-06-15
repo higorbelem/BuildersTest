@@ -34,6 +34,7 @@ export default TextWithPlaceholder = ({text, showPlaceholder, isPlaceholderLine,
     }else{
         return (
             <Text 
+                numberOfLines={1}
                 {...rest}
             >{text}</Text>
         );
