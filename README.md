@@ -13,7 +13,8 @@
 * React Native Elements
 
 ## Prints
-![image](https://drive.google.com/uc?export=view&id=1gShRcg6wSske2sDGkt3G1qFpWvpMf52x =400x864)![image](https://drive.google.com/uc?export=view&id=14VjLMqTLSwLIxwoXkwL_zyGpooIW4DE5 =400x864)
+![image1](https://drive.google.com/uc?export=view&id=1gShRcg6wSske2sDGkt3G1qFpWvpMf52x =400x864)
+![image2](https://drive.google.com/uc?export=view&id=14VjLMqTLSwLIxwoXkwL_zyGpooIW4DE5 =400x864)
 ## SO's testados
 
 * IOS 14.5
