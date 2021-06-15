@@ -26,6 +26,7 @@
 ## Observações
 
 * Link para apk:  https://drive.google.com/file/d/1QyztE28IF7Wfg6r72JgSdGzJkRHqs7e4/view?usp=sharing
+* Inserir as chaves do openWeather e google geocoding em `/env.js`.
 
 ## Referências
 * UI https://smashfreakz.com/2017/11/temperature-app-ui-design/
